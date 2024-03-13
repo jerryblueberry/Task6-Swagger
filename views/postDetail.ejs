@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Detail</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-oC3+91JcXbIGphNn6O6fS/JOW9KV8enclpW+ABIdUML0PPanTUQ5kqKFFvDi15HvqJtwXpdz/VyL6iVqnjl4Rw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <style>
+      .post_time{
+        
+     
+        
+        
+      }
+      .post_time p{
+        
+        
+      }
+     .comment_time{
+      display: flex;
+      justify-content: space-between;
+     }
+     .comment_time p{
+      margin: 0;
+     }
+     .comment_timestampp{
+      color: gray;
+      font-size: 12px;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <!-- User Detail -->
+      <div class="row mb-3">
+        <div class="col">
+          <h4>Social Media</h4>
+        </div>
+        <div class="col d-flex align-items-center">
+          <img
+            class="rounded-circle mr-2"
+            src="/<%= userImage %>"
+            width="50"
+            height="50"
+            alt="User Image"
+          />
+          <p class="m-0"><%= userName %></p>
+        </div>
+      </div>
+
+      <!-- Post Detail -->
+      <div class="card">
+        <div class="card-body">
+          <!-- Post Owner -->
+          <div class="d-flex align-items-center mb-3">
+         
+            <img
+              src="/<%= post.owner_image %>"
+              class="rounded-circle mr-3"
+              width="50"
+              height="50"
+              alt="Owner Image"
+            />
+            <div class="post_time">
+              <p><strong><%= post.owner_name %></strong></p>
+              <p><%= post.created_at%></p>
+
+            </div>
+           
+          </div>
+
+          <!-- Post Image -->
+          <p><%=post.title%></p>
+          <% if (post.images) { %> 
+            
+          <img src="/files/<%=
+          post.images.replace(/\"}$/g, '') %>" class="img-fluid mb-3" alt="Post
+          Image">
+          
+          <% } %>
+
+          <!-- For Likes -->
+          <div class="Like_Section">
+            <div class="like_cont">
+              <p><%= post.like_count%></p>
+              <form action="/like" method="post">
+                <input type="hidden" name="postId" value="<%= post.post_id%>"/>
+                <button type="submit" class="btn btn-outline-primary">
+                  <i class="fas fa-thumbs-up"></i> Like
+                </button>
+
+              </form>
+
+              
+            </div>
+          </div>
+
+          <!-- Comments -->
+          <h5>Comments:</h5>
+          <ul class="list-unstyled">
+            <% if (post.comments.length > 0) { post.comments.forEach(comment =>
+            { if(comment.comment_content !== null && comment.comment_owner !==
+            null && comment.comment_owner_image !== null) { %>
+            <li class="media mb-3">
+              <img
+                src="/<%= comment.comment_owner_image %>"
+                class="rounded-circle mr-3"
+                width="50"
+                height="50"
+                alt="Comment Owner Image"
+              />
+
+              <div class="media-body">
+                <h6 class="mt-0 mb-1">
+                  <strong><%= comment.comment_owner %></strong>
+                </h6>
+                <div class="comment_time">
+                  <p class="m-0"><%= comment.comment_content %></p>
+                  <p class="comment_timestampp "><%= comment.comment_timeStamp %></p>
+                </div>
+               
+              </div>
+            </li>
+            <% } }); } %>
+          </ul>
+
+          <div id="commentInputContainer" style="display: block">
+            <div class="text_input">
+              <form action="/comment" method="post">
+                <input type="hidden" name="postId" value="<%= post.post_id%>" />
+                <textarea
+                  name="comment"
+                  class="form-control mt-3 w-80px"
+                  aria-multiline="true"
+                  rows="0"
+                  placeholder="Write a comment..."
+                ></textarea>
+                <button class="btn btn-primary mt-2" type="submit">
+                  Post Comment
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

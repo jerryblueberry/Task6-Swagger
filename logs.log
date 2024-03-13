@@ -1,0 +1,127 @@
+[2024-02-29T06:03:40.514Z] info:Logging in user
+[2024-02-29T06:03:40.595Z] info:Logged in Successfully
+[2024-02-29T06:04:35.787Z] info:Logging in user
+[2024-02-29T06:04:35.966Z] info:Logged in Successfully
+[2024-02-29T07:02:12.007Z] info:Logging in user
+[2024-02-29T07:02:12.197Z] info:Logged in Successfully
+[2024-02-29T07:02:21.371Z] info:Getting Likes for post 1
+[2024-02-29T07:02:26.097Z] info:Getting Likes for post 2
+[2024-02-29T07:02:29.377Z] info:Getting Likes for post 1
+[2024-03-01T06:35:02.802Z] info:Creating a post
+[2024-03-01T06:35:02.821Z] info:Post Created Successfully
+[2024-03-01T06:55:57.590Z] info:Creating a post
+[2024-03-01T06:55:57.606Z] info:Post Created Successfully
+[2024-03-01T06:55:58.839Z] info:Creating a post
+[2024-03-01T06:55:58.843Z] info:Post Created Successfully
+[2024-03-01T07:28:41.614Z] info:Creating a post
+[2024-03-01T07:28:41.625Z] info:Post Created Successfully
+[2024-03-01T07:43:38.448Z] info:Logging in user
+[2024-03-01T07:43:38.548Z] info:Logged in Successfully
+[2024-03-01T07:46:53.642Z] info:Signing up User
+[2024-03-01T07:46:53.650Z] info:Signup Successfull
+[2024-03-01T08:01:18.816Z] info:Post Liked
+[2024-03-01T08:02:28.742Z] info:Getting Likes for post 1
+[2024-03-01T08:02:46.906Z] info:Getting Likes for post 1
+[2024-03-01T08:03:19.579Z] info:Post Liked
+[2024-03-01T08:03:22.220Z] info:Post Liked
+[2024-03-01T08:03:58.183Z] info:Post Liked
+[2024-03-01T08:04:01.072Z] info:Post Liked
+[2024-03-01T08:04:04.440Z] info:Getting Likes for post 1
+[2024-03-01T08:04:08.596Z] info:Post Liked
+[2024-03-01T08:04:09.876Z] info:Post Liked
+[2024-03-01T08:04:10.960Z] info:Post Liked
+[2024-03-01T08:04:11.676Z] info:Post Liked
+[2024-03-01T08:04:12.279Z] info:Post Liked
+[2024-03-01T08:04:12.891Z] info:Post Liked
+[2024-03-01T08:04:13.516Z] info:Post Liked
+[2024-03-01T08:04:14.159Z] info:Post Liked
+[2024-03-01T08:04:14.885Z] info:Post Liked
+[2024-03-01T08:04:15.552Z] info:Post Liked
+[2024-03-01T08:04:16.208Z] info:Post Liked
+[2024-03-01T08:04:17.134Z] info:Post Liked
+[2024-03-01T08:05:38.899Z] info:Getting Comments from the postId = undefined
+[2024-03-01T08:05:38.906Z] info:Successfully got the Comments for postId =  undefined 
+[2024-03-01T08:12:01.104Z] info:Inserting comment into the database
+[2024-03-01T08:12:01.119Z] info:Comment added Successfully
+[2024-03-01T08:16:04.216Z] info:Getting Comments from the postId = undefined
+[2024-03-01T08:16:04.222Z] info:Successfully got the Comments for postId =  undefined 
+[2024-03-01T08:16:58.439Z] info:Getting Comments from the postId = undefined
+[2024-03-01T08:16:58.442Z] info:Successfully got the Comments for postId =  undefined 
+[2024-03-01T08:17:03.033Z] info:Getting Comments from the postId = 1
+[2024-03-01T08:17:03.036Z] info:Successfully got the Comments for postId =  1 
+[2024-03-01T08:17:09.059Z] info:Getting Comments from the postId = 6
+[2024-03-01T08:17:09.061Z] info:Successfully got the Comments for postId =  6 
+[2024-03-01T08:19:50.786Z] info:Getting Comments from the postId = 6
+[2024-03-01T08:19:50.794Z] info:Successfully got the Comments for postId =  6 
+[2024-03-01T08:19:55.641Z] info:Getting Comments from the postId = 6
+[2024-03-01T08:19:55.643Z] info:Successfully got the Comments for postId =  6 
+[2024-03-01T08:19:58.336Z] info:Getting Comments from the postId = 1
+[2024-03-01T08:19:58.337Z] info:Successfully got the Comments for postId =  1 
+[2024-03-01T08:20:00.690Z] info:Getting Comments from the postId = 6
+[2024-03-01T08:20:00.692Z] info:Successfully got the Comments for postId =  6 
+[2024-03-01T08:24:36.932Z] info:Getting Comments from the postId = 1
+[2024-03-01T08:24:36.939Z] info:Successfully got the Comments for postId =  1 
+[2024-03-01T08:24:41.756Z] info:Getting Comments from the postId = 6
+[2024-03-01T08:24:41.758Z] info:Successfully got the Comments for postId =  6 
+[2024-03-03T14:42:55.263Z] info:Logging in user
+[2024-03-03T14:42:55.327Z] error:Email not found for the user
+[2024-03-03T14:49:38.789Z] info:Logging in user
+[2024-03-03T14:49:38.922Z] info:Logged in Successfully
+[2024-03-03T14:50:56.620Z] info:Post Liked
+[2024-03-03T14:52:31.154Z] info:Logging in user
+[2024-03-03T14:52:31.278Z] info:Logged in Successfully
+[2024-03-03T16:20:54.337Z] info:Logging in user
+[2024-03-03T16:20:54.449Z] info:Logged in Successfully
+[2024-03-03T16:29:08.692Z] info:Logging in user
+[2024-03-03T16:29:08.859Z] info:Logged in Successfully
+[2024-03-04T06:32:33.104Z] info:Inserting comment into the database
+[2024-03-04T06:32:33.124Z] info:Comment added Successfully
+[2024-03-04T06:33:48.027Z] info:Inserting comment into the database
+[2024-03-04T06:33:48.043Z] info:Comment added Successfully
+[2024-03-04T06:33:48.048Z] error:Error While posting comments
+[2024-03-04T06:33:48.059Z] info:Inserting comment into the database
+[2024-03-04T06:33:48.060Z] info:Comment added Successfully
+[2024-03-04T06:33:48.062Z] error:Error While posting comments
+[2024-03-04T06:33:48.073Z] info:Inserting comment into the database
+[2024-03-04T06:33:48.074Z] info:Comment added Successfully
+[2024-03-04T06:33:48.075Z] error:Error While posting comments
+[2024-03-04T06:36:56.899Z] info:Inserting comment into the database
+[2024-03-04T06:36:56.904Z] info:Comment added Successfully
+[2024-03-04T06:51:45.667Z] info:Post Liked
+[2024-03-04T06:51:54.150Z] info:Post Liked
+[2024-03-04T06:52:38.632Z] info:Post Liked
+[2024-03-04T07:31:43.793Z] info:Post Liked
+[2024-03-04T07:32:09.533Z] info:Post Liked
+[2024-03-04T07:33:57.224Z] info:Post Liked
+[2024-03-04T07:34:46.865Z] error:Error Occurred While Liking
+[2024-03-04T07:35:18.523Z] info:Post Liked
+[2024-03-04T07:35:42.872Z] info:Post Liked
+[2024-03-04T07:35:59.542Z] info:Post UnLiked
+[2024-03-04T07:36:08.487Z] info:Post Liked
+[2024-03-04T08:02:40.047Z] info:Post UnLiked
+[2024-03-04T08:02:42.945Z] info:Post Liked
+[2024-03-04T08:04:27.895Z] info:Getting Comments from the postId = 6
+[2024-03-04T08:04:27.903Z] info:Successfully got the Comments for postId =  6 
+[2024-03-04T08:24:06.527Z] info:Creating a post
+[2024-03-04T08:24:06.538Z] info:Post Created Successfully
+[2024-03-04T08:25:35.921Z] info:Creating a post
+[2024-03-04T08:25:35.926Z] info:Post Created Successfully
+[2024-03-04T08:31:19.162Z] info:Creating a post
+[2024-03-04T08:31:19.171Z] info:Post Created Successfully
+[2024-03-04T08:32:27.576Z] info:Creating a post
+[2024-03-04T08:32:27.580Z] info:Post Created Successfully
+[2024-03-04T08:32:55.719Z] info:Creating a post
+[2024-03-04T08:32:55.722Z] info:Post Created Successfully
+[2024-03-05T08:52:57.307Z] info:Logging in user
+[2024-03-05T08:52:57.378Z] info:Logged in Successfully
+[2024-03-05T08:57:16.907Z] info:Logging in user
+[2024-03-05T08:57:17.048Z] info:Logged in Successfully
+[2024-03-05T09:05:36.853Z] info:Logging in user
+[2024-03-05T09:05:36.985Z] info:Logged in Successfully
+[2024-03-05T09:05:57.667Z] info:Creating a post
+[2024-03-05T09:05:57.688Z] info:Post Created Successfully
+[2024-03-05T09:06:04.646Z] info:Inserting comment into the database
+[2024-03-05T09:06:04.652Z] info:Comment added Successfully
+[2024-03-05T09:06:07.732Z] info:Post Liked
+[2024-03-05T09:09:25.027Z] info:Post Liked
+[2024-03-05T09:09:27.201Z] info:Post UnLiked
